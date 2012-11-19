@@ -1,4 +1,4 @@
-
+require 'squares'
 
 describe "Squares square" do
   shared_examples_for "a square number" do

@@ -1,0 +1,11 @@
+#!/bin/env ruby
+$: << "./lib"
+require 'squares'
+
+unless ARGV.length == 1
+  puts "Usage: #$0 <number>"
+end
+
+number = ARGV[0]
+
+puts Squares.new(number.to_i).output
